@@ -44,5 +44,5 @@ jobs:
     - name: STEP 07. Upload Artifact
       uses: actions/upload-artifact@v4
       with: 
-        name: fle-app
+        name: elf-app
         path: target/lab6_csc309-1.0-SNAPSHOT.jar
