@@ -33,7 +33,7 @@ jobs:
       run: mvn test
 
     - name: STEP 04. Deploy
-      run: mkdir staging && op target/*.jar staging
+      run: mkdir staging && cp target/*.jar staging
 
     - name: STEP 05. Just for fun an ls
       run: ls -al target
